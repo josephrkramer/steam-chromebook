@@ -2,6 +2,8 @@
 Automate the installation of Steam on a Chromebook using the built in Linux container (crostini)
 
 ```
+git clone https://github.com/josephrkramer/steam-chromebook.git
+cd steam-chromebook
 ./install-steam.sh
 ```
 
