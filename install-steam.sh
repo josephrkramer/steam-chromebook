@@ -1,0 +1,1 @@
+sudo apt-get update && sudo apt-get install software-properties-common && sudo apt-add-repository non-free && sudo apt-add-repository contrib && sudo dpkg --add-architecture i386 && sudo apt-get update && sudo apt-get install steam
