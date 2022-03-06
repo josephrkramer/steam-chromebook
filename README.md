@@ -14,3 +14,5 @@ cd steam-chromebook
 ```
 
 You can then stream games from your cloud system. I recommend https://github.com/putty182/gcloudrig
+
+If you are using Steam streaming to stream games from either GOG or Origin (or likely any other launcher), be sure to disable the GOG and/or Origin overlays. Add the launchers themselves to Steam as a "non-Steam game."
