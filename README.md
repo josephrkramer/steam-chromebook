@@ -23,3 +23,4 @@ If you are using Steam streaming to stream games from either GOG or Origin (or l
 - https://backports.debian.org/Instructions/
 - https://flathub.org/apps/details/com.valvesoftware.Steam
 - https://github.com/dreamer/boxtron#flathub
+- https://lutris.net/downloads
