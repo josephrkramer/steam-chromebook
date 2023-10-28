@@ -9,3 +9,9 @@ wget https://github.com/lutris/lutris/releases/download/v0.5.14/lutris_0.5.14_al
 
 #install package with dependencies
 sudo apt install ./lutris_0.5.14_all.deb
+
+#dark forces dependencies - requires Debian Bookworm or newer
+# sudo apt install libopengl0 -y
+
+# https://packages.debian.org/sid/libglew2.2
+# sudo apt install libglew2.2
