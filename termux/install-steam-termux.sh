@@ -28,11 +28,12 @@ export DBUS_FATAL_WARNINGS=0
 
 # make script executable and move
 chmod +x steam
-mv steam /usr/local/bin/
+#mv steam /usr/local/bin/
+mv steam /data/data/com.termux/files/usr/bin/
 
 # detect if we're running on 64 bit Debian (maybe this can be moved in another script then mentioned in documentation for the people that don't use steam but don't want a headache)
 MACHINE_TYPE=`uname -m`
-if [ ${MACHINE_TYPE} == 'aarch64' ] && [ -f '/etc/debian_version' ]; then
+if [ ${MACHINE_TYPE} == 'aarch64' ]; then
  echo "Detected 64 bit ARM Debian. Installing 32 bit libraries"
  dpkg --add-architecture armhf # enable installation of armhf libraries
  pkg update # update package lists with the newly added arch
