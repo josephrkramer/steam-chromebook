@@ -11,4 +11,4 @@ wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | gpg -
 pkg update && pkg install box86 -y
 
 #download steam install script
-wget https://raw.githubusercontent.com/ptitSeb/box86/master/install_steam.sh -O install_steam_termux.sh
+# wget https://raw.githubusercontent.com/ptitSeb/box86/master/install_steam.sh -O install_steam_termux.sh
